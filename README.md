@@ -11,7 +11,7 @@ After running this input image in my algorithm, these 20 perturbed images are re
 
 ![Pareto Images](set_of_images_jetplane.png)
 
-The optimality of each solution can be visualized in the pareto front below.
+The optimality of each solution can be visualized in the pareto front below:
 
 <p align="center">
   <img src="https://github.com/jaredratto22/multiobjective_adversarial_examples/blob/main/pareto_front_jetplane.png" alt="Pareto Front"/>
