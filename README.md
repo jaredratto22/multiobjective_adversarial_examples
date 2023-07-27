@@ -5,4 +5,4 @@ Adversarial example algorithms typically measure the difference between the inpu
 
 ![Pareto Images](set_of_images_jetplane.png)
 
-![Pareto Front](pareto_front_jetplane.png)
+![Pareto Front](pareto_front_jetplane (1).png)
