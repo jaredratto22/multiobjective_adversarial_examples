@@ -14,7 +14,7 @@ After running this input image in my algorithm, these 20 perturbed images are re
 The optimality of each solution can be visualized in the pareto front below:
 
 <p align="center">
-  <img src="https://github.com/jaredratto22/multiobjective_adversarial_examples/blob/main/pareto_front_jetplane.png" alt="Pareto Front"/>
+  <img src="https://github.com/jaredratto22/multiobjective_adversarial_examples/blob/main/pareto_front_jetplane2.png" alt="Pareto Front"/>
 </p>
 
 I think a multiobjective adversarial attack is a neat opportunity to measure the vulnerabilities of neural networks. Are some networks, like ResNet, less vulnerable to sparse attacks than others? I will upload the results of my experiments here soon where I hope to show insights on how this algorithm affects different neural network architectures.
