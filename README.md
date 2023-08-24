@@ -17,7 +17,7 @@ The optimality of each solution can be visualized in the Pareto Front below:
   <img src="https://github.com/jaredratto22/multiobjective_adversarial_examples/blob/main/readme_images/pareto_front_jetplane2.png" alt="Pareto Front"/>
 </p>
 
-The shape of the front can tell you something about the model's vulnerabilities to that image. This is because the nearer the points are to the axes, the more vulnerable the image is to adversarial attacks. Also, which axis the points are closer to will tell you which norm the model is more vulnerable to for that image. In the above plot for instance, the points are slightly closer to the y-axis than they are to the axis. This indicates that for this image, the model is more vulnerable to attacks that minimize the l-infinity norm than they are to attacks that minimize the l-0 norm.
+The shape of the front can tell you something about the model's vulnerabilities to that image. This is because the nearer the points are to the axes, the more vulnerable the image is to adversarial attacks. Also, which axis the points are closer to will tell you which norm the model is more vulnerable to for that image. In the above plot for instance, the points are slightly closer to the y-axis than they are to the axis. This indicates that for this image, the model is more vulnerable to changes in the l-infinity norm than they are to changes in the l-0 norm.
 
 I studied the results of my algorithm on 100 images from the CIFAR10 dataset and on 3 neural network models (3 ResNet models, 1 standard and 2 trained on adversarial examples). Results for each class are aggregated together to reveal distinct vunlerabilities for each class of image. To see the full results of the study, please read the attached research report.
 
